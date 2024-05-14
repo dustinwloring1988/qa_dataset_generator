@@ -1,0 +1,17 @@
+extract_library_features:
+  description: >
+    Utilize your web scraping skills to extract key features and functionalities of the {library_name} Python library. Ensure comprehensive coverage of features, including parameters, return types, and usage examples.
+  expected_output: >
+    A structured JSON or CSV file containing detailed information about the features of the {library_name} Python library, including function names, parameters, return types, and usage examples.
+
+generate_QA_pairs:
+  description: >
+    From the extracted library features, generate question and answer pairs that cover various aspects of the {library_name} Python library. Craft questions that challenge the AI model's understanding and encompass both basic and advanced usage scenarios.
+  expected_output: >
+    A curated dataset of question and answer pairs, where each question pertains to a specific feature or functionality of the {library_name} Python library, accompanied by a detailed answer that explains its usage and purpose.
+
+analyze_documentation_insights:
+  description: >
+    Dive deep into the documentation of the {library_name} Python library to uncover insights regarding common usage patterns, frequently asked questions, and potential areas of confusion among developers. Provide a comprehensive analysis highlighting trends and nuances within the documentation.
+  expected_output: >
+    An analytical report detailing insights extracted from the documentation of the {library_name} Python library, including common usage patterns, FAQs, and areas of confusion, supported by textual citations from the documentation.
